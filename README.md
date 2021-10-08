@@ -7,3 +7,5 @@ Added some lorem text to not upload an empty html
 Day 3:
 
 Cleared Repo in prep for the next HW
+
+My portofolio can be found [here](https://grigorandrei.github.io/Portofolio/). (WIP): 
