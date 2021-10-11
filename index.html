@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <nav>This is the navigation tag</nav>
-
+<br>
     <section>
         <form action="#" method="POST">
-            <fieldset>
+            <fieldset class="formular">
                 <label for="fname">First Name: </label>
                 <input type="text" name="fname" maxlength="50" placeholder="First Name" autofocus id="firstname">
                 <br>
@@ -22,8 +23,7 @@
                 <input type="email" name="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" id="email">
                 <br>
                 <label for="age">Your Age:</label>
-                <input type="number" name="age" placeholder="Your Age" step="1"  max="99" min="10" id="age"
-                style="width: 169px;">
+                <input type="number" name="age" placeholder="Your Age" step="1"  max="99" min="10" id="age">
                 <br>
                 <label for="telephone">Telephone Number</label>
                 <input type="tel" name="telephone" placeholder="Your Telephone Number" id="telephone">

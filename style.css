@@ -1,0 +1,20 @@
+@import "./root.css";
+
+body{
+    display: grid;
+    justify-items: center;
+    background-color: var(--main-bg-color);
+}
+
+.formular{
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+fieldset >input {
+    width: 25vw;
+}
