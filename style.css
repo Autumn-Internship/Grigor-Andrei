@@ -15,6 +15,39 @@ body{
     height: 75vh;
 }
 
-fieldset >input {
-    width: 25vw;
+
+@media screen and (min-width:320px) and(max-width: 480px) {
+    fieldset{
+        width: 100vw;
+    }
+    fieldset >input{
+        width: 85vw;
+    }
+}
+
+@media screen and (min-width:481px) and(max-width: 768px) {
+    fieldset{
+        width: 85vw;
+    }
+    fieldset >input{
+        width: 75vw;
+    }
+}
+
+@media screen and (min-width:769px) and(max-width: 1024px) {
+    fieldset{
+        width: 75vw;
+    }
+    fieldset >input{
+        width: 65;
+    }
+}
+
+@media screen and (min-width:1025px) and(max-width: 1200px) {
+    fieldset{
+        width: 50vw;
+    }
+    fieldset >input{
+        width: 35vw;
+    }
 }
