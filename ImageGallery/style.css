@@ -1,0 +1,16 @@
+body{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+#main-image{
+    width: 45%;
+}
