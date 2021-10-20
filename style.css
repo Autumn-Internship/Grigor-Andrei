@@ -1,53 +1,62 @@
 @import "./root.css";
 
 body{
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--main-bg-color);
 }
 
 .formular{
+    position: inherit;
     z-index: 99;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 75vh;
+    width: 50vw;
+    background-color: var(--main-accent-color);
+}
+
+.formular input{
+    width: 35vw;
 }
 
 
-@media screen and (min-width:320px) and(max-width: 480px) {
-    fieldset{
+@media screen and (max-width: 480px) {
+    .formular{
         width: 100vw;
     }
-    fieldset >input{
+    .formular input{
         width: 85vw;
     }
 }
 
-@media screen and (min-width:481px) and(max-width: 768px) {
-    fieldset{
+@media screen and (max-width: 768px) {
+    .formular{
         width: 85vw;
     }
-    fieldset >input{
+    .formular input{
         width: 75vw;
     }
 }
 
-@media screen and (min-width:769px) and(max-width: 1024px) {
-    fieldset{
+@media screen and (max-width: 1024px) {
+    .formular{
         width: 75vw;
     }
-    fieldset >input{
-        width: 65;
+    .formular input{
+        width: 65vw;
     }
 }
 
-@media screen and (min-width:1025px) and(max-width: 1200px) {
-    fieldset{
+@media screen and (max-width: 1200px) {
+    .formular{
         width: 50vw;
     }
-    fieldset >input{
+    .formular input{
         width: 35vw;
     }
 }
