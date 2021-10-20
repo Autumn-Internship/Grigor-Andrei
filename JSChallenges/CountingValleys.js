@@ -1,5 +1,5 @@
 const n=8;
-const p='DUUDDUUD';
+const p='DDUUUUDD';
 
 let valleys=0;
 let elev=0;

@@ -1,5 +1,5 @@
 const n=9;
-const ar=[10, 20, 20, 10, 10, 30, 50, 10, 20]
+const ar=[1,2,2,1,1,3,5,1,2]
 
 var res = 0;
     ar.sort((a, b) => a - b);

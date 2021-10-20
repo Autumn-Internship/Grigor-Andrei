@@ -1,5 +1,5 @@
-const s="aba";
-const n=10;
+const s="abaa";
+const n=4;
 
 const as = [...s].filter(char => char === "a").length;
 const times = parseInt(n/s.length);
